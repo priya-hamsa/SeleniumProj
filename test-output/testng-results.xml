@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18351" started-at="2019-12-29T07:30:10Z" finished-at="2019-12-29T07:30:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18351" started-at="2019-12-29T07:30:10Z" finished-at="2019-12-29T07:30:28Z">
+      <class name="test_scripts.Login_ActitimeTest">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:test_scripts.Login_ActitimeTest@294425a7]" name="OpenApp" is-config="true" duration-ms="5913" started-at="2019-12-29T13:00:20Z" finished-at="2019-12-29T13:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="FAIL" signature="login_Actitime()[pri:0, instance:test_scripts.Login_ActitimeTest@294425a7]" name="login_Actitime" duration-ms="3" started-at="2019-12-29T13:00:26Z" finished-at="2019-12-29T13:00:26Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at pom.Login_Page.login_Actitime(Login_Page.java:33)
+	at test_scripts.Login_ActitimeTest.login_Actitime(Login_ActitimeTest.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1137)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:753)
+	at org.testng.TestRunner.run(TestRunner.java:607)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:368)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:363)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:321)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:270)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1284)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1209)
+	at org.testng.TestNG.runSuites(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1096)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Actitime -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:test_scripts.Login_ActitimeTest@294425a7]" name="closeApp" is-config="true" duration-ms="1814" started-at="2019-12-29T13:00:26Z" finished-at="2019-12-29T13:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- test_scripts.Login_ActitimeTest -->
+      <class name="test_scripts.AddNewTask_Test">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:test_scripts.AddNewTask_Test@6379eb]" name="OpenApp" is-config="true" duration-ms="6083" started-at="2019-12-29T13:00:10Z" finished-at="2019-12-29T13:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="navigateToAddNewTasks()[pri:0, instance:test_scripts.AddNewTask_Test@6379eb]" name="navigateToAddNewTasks" duration-ms="3102" started-at="2019-12-29T13:00:16Z" finished-at="2019-12-29T13:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAddNewTasks -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:test_scripts.AddNewTask_Test@6379eb]" name="closeApp" is-config="true" duration-ms="1408" started-at="2019-12-29T13:00:19Z" finished-at="2019-12-29T13:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- test_scripts.AddNewTask_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
